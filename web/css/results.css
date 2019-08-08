@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+#sidebar-container {
+    display: inline-block;
+    width: 30%;
+    padding: 2em 3em;
+}
+
+#sidebar-main {
+    border: 2px solid #E55350;
+    padding: 1em;
+}
+
+#sidebar-main h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#sidebar-main input {
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    border-radius: 2px;
+    padding:5px;
+    margin-bottom: 15px;
+}
+
+#sidebar-main input[type="range"] {
+    border: none;
+    opacity: 0.7;
+}
+
+#sidebar-container form input, select {
+    width: 90%;
+}
+
+#sidebar-main input[type="range"] {
+    width: 80%;
+}
+
+#sidebar-main input[type="range"]:hover {
+    opacity: 1;
+}
+
+#sidebar-main select {
+    margin-bottom: 15px;   
+}
+
+#slider-val {
+    vertical-align: top;
+}
+
+#sidebar-main input[type="submit"] {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.7em;
+    background-color: white;
+    border: 2px solid #E55350;
+    cursor: pointer;
+}
+
+#sidebar-main input[type="submit"]:hover {
+    background-color: #E55350;
+    color: white;
+}
+
+#results-container {
+    vertical-align: top;
+    display: inline-block;
+    width: 69.5%;
+}
+
+#results-main {
+    padding: 2em 2em 2em 0;
+}
+
+.result-item {
+    display: table;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+
+.result-item::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.place-pic {
+    display: table-cell;
+    width: 90%;
+    height: 200px;
+}
+
+.result-item .type {
+    font-size: 0.9em;
+    margin-top: 0;
+}
+
+.price {
+    display: inline-block;
+}
+
+.place-name {
+    font-size: 1.4em;
+}
+
+.left-part {
+    width: 40%;
+    display: table-cell;
+    vertical-align: top;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 0 2em 0 0;
+}
+
+.right-part {
+    position: relative;
+    display: table-cell;
+    vertical-align: top;
+    width: 20%;
+    top: 10px;
+    padding: 0 2em;
+}
+
+.right-part p {
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.right-part input[type="submit"] {
+    position: absolute;
+    bottom: 4em;
+    border: 1px solid #E55350;
+    padding: 0.3em 1em;
+    background: white;
+    color: #E55350;
+    cursor: pointer;
+}
+
+.right-part input[type="submit"]:hover {
+    background: #E55350;
+    color:white;
+}
+
+

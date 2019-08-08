@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#main #main-content {
+    margin: 4em 4em 2em 12em;
+}
+
+#main-content form input[type="text"] {
+    text-decoration: none;
+    padding: 0.6em;
+    border: 2px solid lightblue;
+}
+
+#main-content input[type="submit"] {
+    text-decoration: none;
+    padding: 0.65em;
+    margin-left: 1em;
+    background: lightblue;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#bookings {
+    margin: 2em 0;
+    padding: 2em;
+    border: 2px solid lightcoral;
+}
+
+.booking-item {
+    border: 2px solid white;
+    border-right: 2px solid rgba(0,0,0,0.5);
+    padding: 1em;
+    margin: 1em 0 2em 0;
+    width: 100%;
+    display: table;
+}
+
+.booking-item:hover {
+    border: 2px solid crimson;
+}
+
+.boking-item::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.booking-item h3 {
+    margin: 10px 0;
+}
+
+.booking-item p {
+    margin: 5px 0;
+    color: rgba(0,0,0,0.8);
+}
+
+.booking-main-details {
+    display: table-cell;
+    width: 35%;
+}
+
+.booking-sub-details {
+    display: table-cell;
+    width: 45%;
+}
+
+.booking-price-details {
+    display: table-cell;
+    width: 20%;
+}
+
+.booking-date {
+    background-color: rgba(0,0,0,0.06);
+    padding: 3px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1) inset, -2px -2px 2px rgba(0,0,0,0.1) inset;
+}
+
+.booking-payment-status {
+    display: inline-block;
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
+
+.paid {
+    border: 2px solid rgba(0,255,0,0.7);
+}
+
+.paid::before {
+    content: " \2713  ";
+    color: green;
+}
+
+.not-paid {
+    border: 2px solid rgba(255,0,0,0.7);
+}
+
+.not-paid::before {
+    content: " ! ";
+    color: red;
+}

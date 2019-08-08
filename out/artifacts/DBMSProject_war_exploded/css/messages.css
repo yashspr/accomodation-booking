@@ -1,0 +1,29 @@
+.warning-message {
+    width: 35%;
+    margin: 1em auto;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+.info-message {
+    width: 35%;
+    margin: 1em auto;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+.warning-message::before {
+    content: ' ! ';
+    color: red;
+    font-size: 1.2em;
+}
+
+.info-message::before {
+    content: ' \2713 ';
+    font-size: 1.2em;
+    color: green;
+}

@@ -1,0 +1,65 @@
+#profile-area {
+    display: table;
+    table-layout: fixed;
+}
+
+#profile-pic {
+    display: table-cell;
+}
+
+#user-details {
+    display: table-cell;
+    width: 70%;
+}
+
+#user-details form {
+    margin: 2em 1em 0 0;
+}
+
+form input {
+    border: 2px solid lightcoral;
+    padding: 0.5em;
+    width: 100%;
+}
+
+#user-details h3:first-child {
+    margin-top: 0;
+}
+
+#user-details input:last-child {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+form h3 {
+    display: inline-block;
+    margin: 0.7em 0;
+}
+
+form input[type="submit"] {
+    background-color: white;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #f08080;
+    color: white;
+}
+
+#password-change h2 {
+    margin: 1em 0;
+}
+
+#password-change {
+    width: 50%;
+    margin: 2em auto;
+    margin-bottom: 0;
+}
+
+#password-change input {
+    width: 100%;
+}
+
+#password-change input[type="submit"] {
+    margin: 1em 0;
+}
